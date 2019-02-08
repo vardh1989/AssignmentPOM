@@ -1,9 +1,8 @@
-1) Pre-Requisites to Run the Suite 
-a)Package file 
-b)Java setup
-c)Android setup
-e)Maven setup
-f)IDE (Eclispe etc)
+Pre-Requisites to Run the Suite 
+1)Package & App under test
+2)Java setup
+3)Android & Appium setup
+4)Maven setup
+5)IDE (Eclispe etc)
 6)TestNG
 7)Dependencies 
-
