@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sminq Login Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.162">
+  <properties />
+  
+  
+            <testcase name="signupWithGmail" time="3.998" classname="testcases.swoo.SwooLoginTest" />
+                <testcase name="validateLoginButton" time="0.164" classname="testcases.swoo.SwooLoginTest" />
+      
+</testsuite>

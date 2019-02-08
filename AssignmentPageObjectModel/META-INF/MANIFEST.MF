@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: NewPageObjectModel
+Bundle-SymbolicName: NewPageObjectModel
+Bundle-Version: 1.0.0.qualifier
+Export-Package: base,
+ listener,
+ screens.care,
+ screens.selendroid,
+ screens.sminq,
+ testcases.care,
+ testcases.selendroid,
+ testcases.sminq,
+ utility

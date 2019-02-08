@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Cashout" duration-ms="4837" started-at="2019-02-07T18:41:22Z" finished-at="2019-02-07T18:41:27Z">
+    <groups>
+      <group name="CashoutText">
+        <method signature="LoginTest.signupWithGmail()[pri:0, instance:testcases.app.LoginTest@3b088d51]" name="signupWithGmail" class="testcases.app.LoginTest"/>
+      </group> <!-- CashoutText -->
+      <group name="Cashoutfeature">
+        <method signature="LoginTest.signupWithGmail()[pri:0, instance:testcases.app.LoginTest@3b088d51]" name="signupWithGmail" class="testcases.app.LoginTest"/>
+      </group> <!-- Cashoutfeature -->
+      <group name="smokeforLogin">
+        <method signature="LoginTest.signupWithGmail()[pri:0, instance:testcases.app.LoginTest@3b088d51]" name="signupWithGmail" class="testcases.app.LoginTest"/>
+        <method signature="LoginTest.validateLoginButton(java.lang.String)[pri:0, instance:testcases.app.LoginTest@3b088d51]" name="validateLoginButton" class="testcases.app.LoginTest"/>
+      </group> <!-- smokeforLogin -->
+    </groups>
+    <test name="App Login Test" duration-ms="4837" started-at="2019-02-07T18:41:22Z" finished-at="2019-02-07T18:41:27Z">
+      <class name="testcases.app.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.app.LoginTest@3b088d51]" name="setUp" is-config="true" duration-ms="24465" started-at="2019-02-07T22:40:58Z" finished-at="2019-02-07T22:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.app.LoginTest@3b088d51]" name="init" is-config="true" duration-ms="173" started-at="2019-02-07T22:41:22Z" finished-at="2019-02-07T22:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateLoginButton(java.lang.String)[pri:0, instance:testcases.app.LoginTest@3b088d51]" name="validateLoginButton" duration-ms="184" started-at="2019-02-07T22:41:23Z" data-provider="getData" finished-at="2019-02-07T22:41:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginButton -->
+        <test-method status="PASS" signature="signupWithGmail()[pri:0, instance:testcases.app.LoginTest@3b088d51]" name="signupWithGmail" duration-ms="3987" started-at="2019-02-07T22:41:23Z" finished-at="2019-02-07T22:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupWithGmail -->
+      </class> <!-- testcases.app.LoginTest -->
+    </test> <!-- App Login Test -->
+  </suite> <!-- TestNG Cashout -->
+</testng-results>

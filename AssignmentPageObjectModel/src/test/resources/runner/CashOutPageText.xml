@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Cashout">
+  <listeners>
+		<listener class-name="listener.CustomListeners"/>
+		<listener class-name="listener.ExtentReporterNG"/>
+
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	
+	</listeners>
+
+	<test name="Cashout Text Test">
+		
+		<groups>
+         	<run>
+            	<include name = "CashoutText" />
+            	
+         	</run>
+      	</groups>
+      	
+		<classes>
+			<class name="testcases.app.LoginTest"></class>
+			<class name="testcases.app.GameListingTest"></class>
+			<class name="testcases.app.GameDashBoardTest"></class>
+			<class name="testcases.app.CashOutTest"></class>
+		</classes>
+	</test>
+
+</suite>

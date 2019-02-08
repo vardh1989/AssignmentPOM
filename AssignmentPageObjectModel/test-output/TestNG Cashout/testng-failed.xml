@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Cashout]">
+  <listeners>
+    <listener class-name="listener.CustomListeners"/>
+    <listener class-name="listener.ExtentReporterNG"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="App CashOut Test(failed)">
+    <groups>
+      <run>
+        <include name="Cashoutfeature"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.app.GameDashBoardTest">
+        <methods>
+          <include name="init"/>
+          <include name="tapCashout"/>
+        </methods>
+      </class> <!-- testcases.app.GameDashBoardTest -->
+      <class name="testcases.app.CashOutTest">
+        <methods>
+          <include name="cashOutClickTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.app.CashOutTest -->
+      <class name="testcases.app.GameListingTest">
+        <methods>
+          <include name="init"/>
+          <include name="triviaClick"/>
+        </methods>
+      </class> <!-- testcases.app.GameListingTest -->
+      <class name="testcases.app.LoginTest">
+        <methods>
+          <include name="signupWithGmail"/>
+          <include name="setUp"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.app.LoginTest -->
+    </classes>
+  </test> <!-- App CashOut Test(failed) -->
+</suite> <!-- Failed suite [TestNG Cashout] -->

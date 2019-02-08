@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="App Login Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.171">
+  <properties />
+  
+  
+            <testcase name="signupWithGmail" time="3.987" classname="testcases.app.LoginTest" />
+                <testcase name="validateLoginButton" time="0.184" classname="testcases.app.LoginTest" />
+      
+</testsuite>

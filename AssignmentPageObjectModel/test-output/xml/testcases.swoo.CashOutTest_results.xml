@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="App CashOut Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.502">
+  <properties />
+  
+  
+            <testcase name="cashOutClickTest" time="2.502" classname="testcases.swoo.CashOutTest" />
+      
+</testsuite>

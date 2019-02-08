@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cashout Text Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.257">
+  <properties />
+  
+  
+            <testcase name="tapCashout" time="1.257" classname="testcases.app.GameDashBoardTest" />
+      
+</testsuite>
